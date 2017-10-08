@@ -12,10 +12,9 @@ header{
   display: inline-flex;
 }
 header a img{
-  position: relative;
+  position: absolute;
   margin: auto;
   padding-left: 15;
-
 }
 .home{
   margin-top: 5;
@@ -25,10 +24,11 @@ header a img{
 }
 header nav{
   text-align: center;
-  left: 50%;
-  margin-left: 360;
-  margin-right: 380;
-
+  margin-left: 30%;
+  margin-right: 25%;
+  float: left;
+  display: inline-block;
+  position: relative;
 }
 header ul{
   list-style: none;
@@ -64,7 +64,6 @@ header ul li{
   color: rgba(0, 0, 0, 0.5);;
 }
 .language img{
-  position: relative;
   border: 2px solid white;
   display: inline;
   margin: 20 20;
